@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Home - Page 5</title>
+    <link href= "T1Styling.css" type="text/css" rel = "stylesheet">
+</head>
+    
+<body>
+    <div class = "log">
+    <form action="Screen2.html" method="get">
+        <fieldset>
+        <legend border = "2" color = "black">Log In</legend>
+        <Lablel for= "l1" class = "loglab"> Username: </Lablel>
+        <input type = "text" class = "logi" name ="username" placeholder="Enter your Username">
+        <br>
+        <Lablel for= "l1" class = "loglab"> Password: </Lablel>
+        <input type = "password" class = "logi" name = "password" placeholder="Enter your Password">
+        <br>
+        <Lablel for= "l1" class = "loglab"> Select your Country : </Lablel>
+        <select name ="country">
+            <optgroup label ="Africa">
+                <option>Egypt</option>
+                <option>Morocco</option>
+                <option>South Africa</option>
+            </optgroup>
+             <optgroup label ="South America">
+                <option>Argentina</option>
+                <option>Brazil</option>
+                <option>Mexico</option>
+            </optgroup>
+              <optgroup label ="North America" disabled>
+                <option>USA</option>
+                <option>Canada</option>
+                
+            </optgroup>
+        </select>
+        <br>
+        <input type="checkbox" value="rememberme" name="rememberme" id = "rememberme" accesskey ="M">
+            <label for="rememberme" > Remember <u>M</u>e</label>
+            <br>
+         <input type="submit" value="Log In">           
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
